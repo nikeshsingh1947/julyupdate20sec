@@ -1,0 +1,51 @@
+/* src/components/TermsAndConditions.css */
+.main-terms-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 800px;
+  font-family: Arial, sans-serif;
+}
+
+.title-terms {
+  font-size: 2em;
+  margin-bottom: 20px;
+  
+}
+.smallTitle{
+ color: black;
+}
+.text-terms {
+  font-size: 1em;
+  line-height: 1.6;
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .main-terms-container {
+    padding: 15px;
+  }
+  .title-terms {
+    font-size: 1.5em;
+  }
+  .text-terms {
+    font-size: 0.9em;
+  }
+}
+
+@media (max-width: 480px) {
+  .main-terms-container {
+    padding: 10px;
+  }
+  .title-terms {
+    font-size: 1.2em;
+  }
+  .text-terms {
+    font-size: 0.8em;
+  }
+}
